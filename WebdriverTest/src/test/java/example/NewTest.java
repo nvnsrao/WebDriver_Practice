@@ -22,7 +22,7 @@ public class NewTest {
 	public void setup() {
 		System.setProperty("webdriver.chrome.driver", "WebDriver/chromedriver.exe");
 		driver= new ChromeDriver();
-		//driver.get("http://demo.guru99.com/v4/index.php");
+		driver.get("http://demo.guru99.com/v4/index.php");
 	}
   
   @AfterClass
