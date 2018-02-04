@@ -20,7 +20,7 @@ public class NewTest {
   
   @BeforeTest
 	public void setup() {
-		System.setProperty("webdriver.firefox.marionette", "WebDriver/chromedriver.exe");
+		System.setProperty("webdriver.geko.marionette", "WebDriver/chromedriver.exe");
 		driver= new ChromeDriver();
 		//driver.get("http://demo.guru99.com/v4/index.php");
 	}
