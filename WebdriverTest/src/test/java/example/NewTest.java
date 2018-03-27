@@ -16,7 +16,11 @@ public class NewTest {
 	  
 	  driver.get("http://demo.guru99.com/test/guru99home/");  
 		String title = driver.getTitle();	
+
 		System.out.println("iam in maven project");
+
+		System.out.println();
+
 		Assert.assertTrue(title.contains("Demo Guru99 Page")); 
 		
   }
