@@ -19,7 +19,7 @@ public class NewTest {
 
 		System.out.println("iam in maven project");
 
-		System.out.println();
+		System.out.println(title);
 
 		Assert.assertTrue(title.contains("Demo Guru99 Page")); 
 		
