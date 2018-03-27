@@ -26,7 +26,7 @@ public class NewTest {
 	  ChromeOptions chromeOptions= new ChromeOptions();
 	  chromeOptions.setBinary("C:\\Users\\Hello\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
 
-	  //ChromeDriver driver = new ChromeDriver(chromeOptions);
+	  //ChromeDriver driver = new ChromeDriver(chromeOptions);;
 		System.setProperty("webdriver.chrome.driver", "WebDriver/chromedriver.exe");
 		driver= new ChromeDriver(chromeOptions);
 		//driver.get("http://demo.guru99.com/v4/index.php");
