@@ -28,7 +28,7 @@ public class NewTest {
 
 	  //ChromeDriver driver = new ChromeDriver(chromeOptions);
 		System.setProperty("webdriver.chrome.driver", "WebDriver/chromedriver.exe");
-		driver= new ChromeDriver(chromeOptions);
+		driver= new ChromeDriver(chromeOptions);;
 		//driver.get("http://demo.guru99.com/v4/index.php");
 	}
   
