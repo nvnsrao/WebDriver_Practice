@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="37014" started-at="2018-01-31T04:48:43Z" finished-at="2018-01-31T04:49:20Z">
+  <suite name="Default suite" duration-ms="38376" started-at="2018-03-27T04:06:55Z" finished-at="2018-03-27T04:07:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="37014" started-at="2018-01-31T04:48:43Z" finished-at="2018-01-31T04:49:20Z">
+    <test name="Default test" duration-ms="38376" started-at="2018-03-27T04:06:55Z" finished-at="2018-03-27T04:07:34Z">
       <class name="example.NewTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:example.NewTest@51efea79]" name="setup" is-config="true" duration-ms="6845" started-at="2018-01-31T10:18:43Z" finished-at="2018-01-31T10:18:50Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:example.NewTest@51efea79]" name="setup" is-config="true" duration-ms="4644" started-at="2018-03-27T09:36:55Z" finished-at="2018-03-27T09:37:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="f()[pri:0, instance:example.NewTest@51efea79]" name="f" duration-ms="27847" started-at="2018-01-31T10:18:50Z" finished-at="2018-01-31T10:19:18Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:example.NewTest@51efea79]" name="f" duration-ms="33477" started-at="2018-03-27T09:37:00Z" finished-at="2018-03-27T09:37:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="close()[pri:0, instance:example.NewTest@51efea79]" name="close" is-config="true" duration-ms="2267" started-at="2018-01-31T10:19:18Z" finished-at="2018-01-31T10:19:20Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:example.NewTest@51efea79]" name="close" is-config="true" duration-ms="107" started-at="2018-03-27T09:37:33Z" finished-at="2018-03-27T09:37:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
