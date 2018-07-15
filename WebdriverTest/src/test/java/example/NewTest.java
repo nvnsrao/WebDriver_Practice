@@ -24,6 +24,19 @@ public class NewTest {
 		Assert.assertTrue(title.contains("Demo Guru99 Page")); 
 		
   }
+  @Test
+  public void f2() {
+	  
+	  driver.get("http://demo.guru99.com/test/guru99home/");  
+		String title = driver.getTitle();	
+
+		System.out.println("iam in maven f2");
+
+		System.out.println(title);
+
+		Assert.assertTrue(title.contains("Demo Guru99 Page")); 
+		
+  }
   
   @BeforeTest
 	public void setup() {
