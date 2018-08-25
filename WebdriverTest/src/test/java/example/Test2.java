@@ -10,6 +10,7 @@ public class Test2 {
   @Test(enabled=false)
   public void method1() {
 	  System.out.println("i am in Test2 Method1");
+	  //comments
   }
   
   @Test(enabled=true)
