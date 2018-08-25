@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="38376" started-at="2018-03-27T04:06:55Z" finished-at="2018-03-27T04:07:34Z">
+  <suite name="Default suite" duration-ms="82" started-at="2018-08-04T05:10:32Z" finished-at="2018-08-04T05:10:32Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="38376" started-at="2018-03-27T04:06:55Z" finished-at="2018-03-27T04:07:34Z">
-      <class name="example.NewTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:example.NewTest@51efea79]" name="setup" is-config="true" duration-ms="4644" started-at="2018-03-27T09:36:55Z" finished-at="2018-03-27T09:37:00Z">
+    <test name="Default test" duration-ms="82" started-at="2018-08-04T05:10:32Z" finished-at="2018-08-04T05:10:32Z">
+      <class name="example.Test2">
+        <test-method status="PASS" signature="getCurrentTestCaseName()[pri:0, instance:example.Test2@c038203]" name="getCurrentTestCaseName" duration-ms="12" started-at="2018-08-04T05:10:32Z" finished-at="2018-08-04T05:10:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="f()[pri:0, instance:example.NewTest@51efea79]" name="f" duration-ms="33477" started-at="2018-03-27T09:37:00Z" finished-at="2018-03-27T09:37:33Z">
+        </test-method> <!-- getCurrentTestCaseName -->
+        <test-method status="PASS" signature="getCurrentTimeStamp()[pri:0, instance:example.Test2@c038203]" name="getCurrentTimeStamp" duration-ms="28" started-at="2018-08-04T05:10:32Z" finished-at="2018-08-04T05:10:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="close()[pri:0, instance:example.NewTest@51efea79]" name="close" is-config="true" duration-ms="107" started-at="2018-03-27T09:37:33Z" finished-at="2018-03-27T09:37:34Z">
+        </test-method> <!-- getCurrentTimeStamp -->
+        <test-method status="PASS" signature="getCurrentTimeinMillis()[pri:0, instance:example.Test2@c038203]" name="getCurrentTimeinMillis" duration-ms="4" started-at="2018-08-04T05:10:32Z" finished-at="2018-08-04T05:10:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- example.NewTest -->
+        </test-method> <!-- getCurrentTimeinMillis -->
+      </class> <!-- example.Test2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
